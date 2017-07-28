@@ -1,0 +1,10 @@
+body{
+background-color: #D5D5D5;
+    color: 202020;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

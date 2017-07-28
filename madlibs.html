@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mad Libs</title>
+    <link rel="stylesheet" type="text/css" href="madlibs.css">
+    <script src="madlibs.js"></script>
+  </head>
+<body background="http://www.nestfurnitureanddesign.com/wp-content/uploads/Burlap-Lace-Background-Big.jpg">
+</body>
+
+  <body>
+  <div class="center">
+  <center>
+    <h1 style="Lucida Sans Unicode", "Lucida Grande", sans-serif;>Mad Libs: A Fairytale</h1>
+  </center>
+  <table cellpadding="10" cellspacing="0" border="0" align="center" class="mG_page">
+  		  <tbody><tr>
+  		    <td align="center">
+  					<table cellpadding="0" cellspacing="0" border="0" width="100%">
+  		    <td align="center">
+  					<!-- ========== START GLIB FORM ========== -->
+  										<div class="mG_form" id="mG_188" style="margin-bottom: 20px">
+
+  					  <table border="0" style="font-size: 10pt;">
+  						<tbody>
+                  <tr>
+  						      <td align="right">NOUN</td>
+  						      <td align="left">
+  						        <input type="text" name="1" id="w1">
+  						      </td>
+  						      <td align="left"></td>
+  					      </tr>
+  								<tr>
+  						      <td align="right">VERB IN PAST TENSE</td>
+  						      <td align="left">
+  						        <input type="text" name="2" id="w2">
+  						      </td>
+  						      <td align="left">
+
+  					      	</td>
+  					    	</tr>
+  												    <tr>
+  						      <td align="right">ADJECTIVE</td>
+  						      <td align="left">
+  						        <input type="text" name="3" id="w3">
+  						      </td>
+  						      <td align="left">
+
+  					      	</td>
+  					    	</tr>
+  												    <tr>
+  						      <td align="right">VERB IN PAST TENSE</td>
+  						      <td align="left">
+  						        <input type="text" name="4" id="w4">
+  						      </td>
+  						      <td align="left">
+
+  					      	</td>
+  					    	</tr>
+  												    <tr>
+  						      <td align="right">PLURAL NOUN</td>
+  						      <td align="left">
+  						        <input type="text" name="5" id="w5">
+  						      </td>
+  						      <td align="left">
+
+  					      	</td>
+  					    	</tr>
+
+  					      <td align="center" colspan="3">
+  					      </td>
+  					    </tr>
+  					  </tbody></table>
+
+
+
+  					</div>
+  					<!-- ========== END GLIB FORM ========== -->
+      
+  				</td>
+    		</tr>
+    		<tr>
+
+    		</tr>
+  		</tbody></table>
+      <button onclick="save()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function save() {
+    var word1 = document.getElementById('w1').value;
+    var word2 = document.getElementById('w2').value;
+    var word3 = document.getElementById('w3').value;
+    var word4 = document.getElementById('w4').value;
+    var word5 = document.getElementById('w5').value;
+    document.getElementById("demo").innerHTML = "Once Upon a time there was a " + word1 + " who " + word2 + " in a castle. One day there was a " + word3 + " dragon who " + word4 + " the castle. Never fear, two " + word5 + " saved the day!";
+
+}
+</script>
+  </body>
